@@ -7,7 +7,7 @@ exports.config = {
     // ====================
     // WebdriverIO supports running e2e tests as well as unit and component tests.
     runner: 'local',
-    path: '/wd/hub/',
+    path: '/wd/hub',
     port : '4723',
     //
     // ==================
@@ -61,7 +61,7 @@ exports.config = {
         "appium:platformVersion": "9.0",
         "appium:deviceName"     : "Dicki Rizki",
         "appium:appPackage"     : "com.fghilmany.dietmealapp",
-        "appium:appActivity"    : "com.fghilmany.dietmealapp.ui.main.MainActIVIty",
+        "appium:appActivity"    : "com.fghilmany.dietmealapp.ui.main.MainActivity",
         "appium:udid"           : "emulator-5554",
         "appium:noReset"        : true,
         "appium:forceAppLaunch" : true,
@@ -106,7 +106,7 @@ exports.config = {
     //
     // Default timeout in milliseconds for request
     // if browser driver or grid doesn't send response
-    connectionRetryTimeout: 200000,
+    connectionRetryTimeout: 120000,
     //
     // Default request retries count
     connectionRetryCount: 3,
@@ -122,6 +122,7 @@ exports.config = {
             args: {
                 address : '127.0.0.1',
                 port    : 4723,
+                relaxedSecurity: true,
             },
             logPath : './log',
             command : 'appium'
