@@ -27,7 +27,7 @@ describe('Test Case Aplikasi Dietku', () => {
     await $("//*[@resource-id='com.fghilmany.dietmealapp:id/rb_male']").getText('Male');
   })
 
-//   it('open page informasi formulir', async () => {
-//     await $("//*[@resource-id='com.fghilmany.dietmealapp:id/bt_next']").click();
-//   })
+  it('open page informasi formulir', async () => {
+    await $("//*[@resource-id='com.fghilmany.dietmealapp:id/bt_next']").click();
+  })
 });
