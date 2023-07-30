@@ -1,4 +1,3 @@
-const { sleep } = require('webdriverio');
 describe('Test Case Aplikasi Dietku', () => {
   it('should open apps', async () => {
     await $("//*[@resource-id='com.fghilmany.dietmealapp:id/header_welcome']").getText('Welcome...');
