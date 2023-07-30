@@ -26,7 +26,7 @@ exports.config = {
     // will be called from there.
     //
     specs: [
-        './test/specs/mobile.automation.js'
+        './testCase/specs/mobile.automation.js'
     ],
     // Patterns to exclude.
     exclude: [
