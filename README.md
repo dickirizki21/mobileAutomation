@@ -1,4 +1,4 @@
-# Task 2 - Tugas Akhir Dicki Rizki A
+# Mobile automation - Appium
 
 Result test mobile automation
 
